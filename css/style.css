@@ -1,0 +1,118 @@
+#relative {
+    font-size: 20px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box1 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(29, 201, 232);
+    padding: 45px;
+    margin: 20px;
+
+}
+
+.box2 {
+    z-index: 1;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(126, 244, 63);
+    padding: 45px;
+    margin: 20px;
+    position: relative;
+    top: -70px;
+    left: 240px
+}
+
+.box3 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(255, 114, 246);
+    padding: 45px;
+    margin: 20px;
+    position:relative;
+    top: -280px;
+    left: 340px;
+}
+
+#absolute {
+    font-size: 20px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:relative;
+    top: -180px;
+}
+
+.box4 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(29, 201, 232);
+    padding: 45px;
+    margin: 20px;
+}
+
+.box5 {
+    z-index: 1;
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(126, 244, 63);
+    padding: 45px;
+    margin: 20px;
+    position: absolute;
+    top: 72px;
+    left: 60px;
+}
+
+.box6 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(255, 114, 246);
+    padding: 45px;
+    margin: 20px;
+    position: absolute;
+    top: 24px;
+    left: 165px;
+}
+
+#float {
+    font-size: 20px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: -90px;
+}
+
+.box7 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(29, 201, 232);
+    padding: 45px;
+    margin: 44px;
+    float: right;
+}
+
+.box8 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(126, 244, 63);
+    padding: 45px;
+    margin: 20px;
+}
+
+.box9 {
+    text-align: center;
+    width: 70px;
+    height: 30px;
+    background: rgb(255, 114, 246);
+    padding: 45px;
+    margin: 20px;
+}
